@@ -2,14 +2,6 @@
 
 # Speech Command Classification Using CNN
 
-**Deep Learning CIA – 2**
-
-* **Name:** Haneef Ahmad
-* **Class:** IoT – A
-* **Roll No.:** 22011102019
-
----
-
 ## Project Overview
 
 This project implements a **Convolutional Neural Network (CNN)** to classify short speech commands into three categories:
