@@ -1,8 +1,6 @@
-Here is your content converted into a clean, **professional `README.md` file**, formatted properly for GitHub and academic submission.
-
 ---
 
-# 🎙️ Speech Command Classification Using CNN
+# Speech Command Classification Using CNN
 
 **Deep Learning CIA – 2**
 
@@ -12,7 +10,7 @@ Here is your content converted into a clean, **professional `README.md` file**, 
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements a **Convolutional Neural Network (CNN)** to classify short speech commands into three categories:
 
@@ -24,13 +22,13 @@ A subset of the **Google Speech Commands Dataset** was used. Audio signals were 
 
 ---
 
-## 🧠 Abstract
+## Abstract
 
 The goal of this project is to develop a deep learning-based speech recognition system capable of identifying short spoken commands. A CNN model was trained on spectrogram representations of one-second audio clips. The system successfully learned to distinguish between different commands and achieved strong performance, highlighting the potential of CNN-based approaches in real-time and embedded speech recognition systems.
 
 ---
 
-## 📖 Introduction
+## Introduction
 
 Speech recognition is a key area of **Artificial Intelligence** and **Human–Computer Interaction**, enabling machines to understand and respond to spoken input. It plays a critical role in voice-controlled assistants, smart devices, and IoT systems.
 
@@ -48,7 +46,7 @@ The focus was on:
 
 ---
 
-## 🗂️ Dataset Description
+## Dataset Description
 
 The **Google Speech Commands Dataset** contains over **65,000** one-second audio clips of spoken words.
 
@@ -60,7 +58,7 @@ For this project, only the following folders were used:
 
 ---
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 
 The following preprocessing steps were applied:
 
@@ -76,7 +74,7 @@ The following preprocessing steps were applied:
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 The CNN architecture used in this project is shown below:
 
@@ -99,7 +97,7 @@ The CNN architecture used in this project is shown below:
 
 ---
 
-## 🏋️ Training Parameters
+## Training Parameters
 
 * **Epochs:** 10
 * **Batch Size:** 32
@@ -108,9 +106,9 @@ The CNN architecture used in this project is shown below:
 
 ---
 
-## 📊 Results and Discussion
+## Results and Discussion
 
-### 🔹 Model Performance
+### Model Performance
 
 After training:
 
@@ -122,7 +120,7 @@ The model showed **stable convergence** with minimal overfitting.
 
 ---
 
-### 🔹 Confusion Matrix Summary
+### Confusion Matrix Summary
 
 | Actual \ Predicted | Yes  | No   | Don’t Know |
 | ------------------ | ---- | ---- | ---------- |
@@ -134,7 +132,7 @@ Most misclassifications occurred between **“No”** and **“Don’t Know”**
 
 ---
 
-### 🔹 Training Curves
+### Training Curves
 
 * Accuracy increased steadily over epochs
 * Loss decreased smoothly
@@ -144,7 +142,7 @@ This confirms proper model learning.
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 The CNN model successfully classified short speech commands using **spectrogram-based features**. Despite using a simple architecture and limited data, the model achieved strong accuracy.
 
@@ -157,7 +155,7 @@ This project demonstrates the practicality of deep learning in:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Possible enhancements include:
 
@@ -167,7 +165,7 @@ Possible enhancements include:
 
 ---
 
-## 📎 Technologies Used
+## Technologies Used
 
 * Python
 * TensorFlow / Keras
@@ -177,9 +175,3 @@ Possible enhancements include:
 
 ---
 
-If you want, I can also:
-
-* Make this **shorter for submission**
-* Add a **project structure section**
-* Convert it into **PDF / DOC format**
-* Add **code snippets** to the README
