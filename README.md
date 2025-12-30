@@ -1,5 +1,3 @@
----
-
 # Speech Command Classification Using CNN
 
 ## Project Overview
